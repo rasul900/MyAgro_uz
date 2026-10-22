@@ -475,7 +475,31 @@
 
 .layerHome {
   align-items: stretch;
-  background: #faf7f0;
+  background:
+    radial-gradient(circle at 78% 18%, rgba(80, 186, 103, 0.14), transparent 28%),
+    linear-gradient(180deg, #fbfaf5 0%, #f4f7ee 100%);
+}
+
+.layerHome .homeUi {
+  padding: 0.3rem 0.72rem 0;
+}
+
+.layerHome .homeTop {
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid rgba(24, 91, 52, 0.08);
+}
+
+.layerHome .voiceCard {
+  box-shadow: 0 8px 18px rgba(11, 93, 46, 0.16);
+}
+
+.layerHome .weatherMini,
+.layerHome .quick span {
+  box-shadow: 0 5px 14px rgba(32, 38, 31, 0.06);
+}
+
+.layerHome .tabbar {
+  box-shadow: 0 -5px 14px rgba(32, 38, 31, 0.06);
 }
 
 .statusBar {
