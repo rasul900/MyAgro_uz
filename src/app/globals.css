@@ -68,6 +68,19 @@ a {
   color: inherit;
 }
 
+:focus-visible {
+  outline: 3px solid rgba(217, 154, 43, 0.75);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn,
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
 img {
   max-width: 100%;
   height: auto;
