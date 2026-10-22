@@ -1,14 +1,16 @@
 :root {
-  --green: #16a34a;
-  --green-deep: #15803d;
-  --green-ink: #14532d;
-  --mint: #ecfdf3;
-  --mint-2: #dcfce7;
-  --ink: #0f1720;
-  --muted: #5c6b63;
-  --line: rgba(20, 83, 45, 0.12);
-  --bg: #f4f7f4;
-  --surface: #ffffff;
+  /* Semantic palette: fertile green, sun-warmed paper, and deep soil ink. */
+  --green: #1f8f55;
+  --green-deep: #14633d;
+  --green-ink: #123d2b;
+  --mint: #e8f4e9;
+  --mint-2: #d5ead8;
+  --sun: #d99a2b;
+  --ink: #18231d;
+  --muted: #627166;
+  --line: rgba(18, 61, 43, 0.14);
+  --bg: #f7f5ed;
+  --surface: #fffdf8;
   --white: #ffffff;
 
   --space-1: 0.25rem;
@@ -24,10 +26,10 @@
   --fast: 180ms;
   --med: 260ms;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --radius: 1.15rem;
-  --radius-sm: 0.85rem;
+  --radius: 1.35rem;
+  --radius-sm: 0.9rem;
   --pill: 999px;
-  --shadow: 0 18px 50px rgba(20, 83, 45, 0.1);
+  --shadow: 0 22px 60px rgba(18, 61, 43, 0.12);
   --gutter: 1.25rem;
 }
 

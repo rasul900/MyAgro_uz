@@ -14,7 +14,9 @@
   width: min(70vw, 640px);
   height: min(70vw, 640px);
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(22, 163, 74, 0.18), transparent 68%);
+  background:
+    radial-gradient(circle at 35% 35%, rgba(217, 154, 43, 0.2), transparent 30%),
+    radial-gradient(circle, rgba(31, 143, 85, 0.2), transparent 68%);
   pointer-events: none;
 }
 
@@ -972,11 +974,19 @@
 }
 
 .card {
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 92%, var(--mint));
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 1.25rem 1.2rem 1.3rem;
+  padding: 1.35rem 1.25rem 1.4rem;
   min-height: 100%;
+  box-shadow: 0 12px 32px rgba(18, 61, 43, 0.05);
+  transition: transform var(--med) var(--ease), box-shadow var(--med) var(--ease), border-color var(--med) ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(31, 143, 85, 0.3);
+  box-shadow: 0 18px 42px rgba(18, 61, 43, 0.11);
 }
 
 .card h3 {
